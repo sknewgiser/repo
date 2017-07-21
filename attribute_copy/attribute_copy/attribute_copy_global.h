@@ -1,0 +1,12 @@
+#ifndef ATTRIBUTE_COPY_GLOBAL_H
+#define ATTRIBUTE_COPY_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef ATTRIBUTE_COPY_LIB
+# define ATTRIBUTE_COPY_EXPORT Q_DECL_EXPORT
+#else
+# define ATTRIBUTE_COPY_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // ATTRIBUTE_COPY_GLOBAL_H

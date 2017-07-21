@@ -1,0 +1,33 @@
+﻿生成启动时间为 2017/3/31 18:28:03。
+     1>项目“D:\SilenForest\QGIS_Dev\Test\attribute_copy\attribute_copy\attribute_copy.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\attribute_copy.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\SilenForest\QGIS_Dev\4.8.5X64\include /I.\GeneratedFiles\Release /ID:\SilenForest\QGIS_Dev\4.8.5X64\include\QtCore /ID:\SilenForest\QGIS_Dev\4.8.5X64\include\QtGui /ID:\SilenForest\QGIS_Dev\4.8.5X64\include\QtXml /ID:\SilenForest\QGIS_Dev\4.8.5X64\include\QtSvg /ID:\SilenForest\QGIS_Dev\4.8.5X64\include\QtXmlPatterns /ID:\SilenForest\QGIS_Dev\4.8.5X64\include\QtTest /ID:\SilenForest\QGIS_Dev\QGIS\include /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_XML_LIB /D QT_SVG_LIB /D QT_XMLPATTERNS_LIB /D ATTRIBUTE_COPY_LIB /D QGISDEBUG=1 /D "CORE_EXPORT=__declspec(dllimport)" /D "GUI_EXPORT=__declspec(dllimport)" /D "PYTHON_EXPORT=__declspec(dllimport)" /D "ANALYSIS_EXPORT=__declspec(dllimport)" /D "APP_EXPORT=__declspec(dllimport)" /D "CUSTOMWIDGETS_EXPORT=__declspec(dllimport)" /D "SERVER_EXPORT=__declspec(dllimport)" /D "SILEN_EXPORT=__declspec(dllimport)" /D "SILEN_GUIEXP=__declspec(dllimport)" /D "QTITAN_EXPORT=__declspec(dllimport)" /D WITH_QTWEBKIT /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D override= /D noexcept= /D nullptr=0 /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt attributecopy.cpp
+         attributecopy.cpp
+     1>D:\SilenForest\QGIS_Dev\QGIS\include\qgsvectorlayer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\silenforest\qgis_dev\qgis\include\qgsvectorlayer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\SilenForest\QGIS_Dev\QGIS\include\qgsvectorlayer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\SilenForest\QGIS_Dev\QGIS\include\qgsvectorlayer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         所有输出均为最新。
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\QGIS\plugins\\attribute_copy.dll" /NOLOGO /LIBPATH:D:\SilenForest\QGIS_Dev\QGIS\lib /LIBPATH:D:\SilenForest\QGIS_Dev\4.8.5X64\lib qtmain.lib QtCore4.lib QtGui4.lib QtXml4.lib QtSvg4.lib QtXmlPatterns4.lib QtTest4.lib qgis_core.lib qgis_gui.lib qgis_analysis.lib qgis_app.lib qgis_networkanalysis.lib silen_core.lib silen_gui.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"D:\SilenForest\QGIS_Dev\QGIS\plugins\attribute_copy.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\QGIS\plugins\attribute_copy.lib" /MACHINE:X64 /DLL x64\Release\attributecopy.obj
+         x64\Release\attributecopyclass.obj
+         x64\Release\attribute_copy.obj
+         x64\Release\qrc_attirbute_copy.obj
+         x64\Release\moc_attributecopy.obj
+         x64\Release\moc_attribute_copy.obj
+         x64\Release\moc_SilenEditUtils.obj
+         x64\Release\readXML.obj
+         x64\Release\SilenEditUtils.obj
+         attribute_copy.vcxproj -> D:\SilenForest\QGIS_Dev\Test\attribute_copy\attribute_copy\..\..\..\QGIS\plugins\attribute_copy.dll
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\attribute_copy.unsuccessfulbuild”。
+         正在对“x64\Release\attribute_copy.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\SilenForest\QGIS_Dev\Test\attribute_copy\attribute_copy\attribute_copy.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.46
